@@ -2,7 +2,7 @@ body
 {
   width: 700px;
   margin: 20px auto;
-  padding: 20px;
+  padding: 20px 20px 0px 0px;
   -moz-border-radius: 10px;
   border-radius: 10px;
   background: #999;
@@ -18,4 +18,18 @@ ul li
 {
   width: 210px;
   height: 210px;
+  background: #ede977;
+  -moz-border-radius: 10px;
+  margin: 0 0 20px 20px;
+  border: 1px solid #bbb;
+  -moz-box-shadow: 10px 10px 10px #557;
+  float:left;
+  
+}
+ul:after 
+{
+  display:block;
+  content:" ";
+  clear: both;
+  line-height: 0;
 }

@@ -7,7 +7,7 @@ body
   border-radius: 10px;
   background: #999;
   border: 1px solid #bbb;
-  -moz-box-shadow: 10px 10px 10px #557; /* FF3.5+ */
+  -moz-box-shadow: 10px 10px 10px #557;
 
 }
 html
@@ -16,15 +16,17 @@ html
 }
 ul li
 {
-  width: 210px;
-  height: 210px;
+  font-family: "Reenie Beanie";
+  width: 190px;
+  height: 190px;
   background: #ede977;
   -moz-border-radius: 10px;
   margin: 0 0 20px 20px;
+  padding: 10px;
   border: 1px solid #bbb;
   -moz-box-shadow: 10px 10px 10px #557;
   float:left;
-  
+  font-size: 25px;
 }
 ul:after 
 {
@@ -32,4 +34,8 @@ ul:after
   content:" ";
   clear: both;
   line-height: 0;
+}
+ul li h2
+{
+  font-size: 45px;
 }

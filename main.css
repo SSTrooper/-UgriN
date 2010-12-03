@@ -7,10 +7,15 @@ body
   border-radius: 10px;
   background: #999;
   border: 1px solid #bbb;
-  -moz-box-shadow: 10px 10px 10px #ffffff; /* FF3.5+ */
+  -moz-box-shadow: 10px 10px 10px #557; /* FF3.5+ */
 
 }
 html
 {
   background:#333;
+}
+ul li
+{
+  width: 210px;
+  height: 210px;
 }

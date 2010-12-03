@@ -4,9 +4,14 @@ body
   margin: 20px auto;
   padding: 20px;
   -moz-border-radius: 10px;
+  border-radius: 10px;
   background: #999;
   border: 1px solid #bbb;
-  
+  .box_shadow {
+     -moz-box-shadow: 0px 0px 4px #ffffff; /* FF3.5+ */
+  -webkit-box-shadow: 0px 0px 4px #ffffff; /* Saf3.0+, Chrome */
+          box-shadow: 0px 0px 4px #ffffff; /* Opera 10.5, IE 9 */
+
 }
 html
 {

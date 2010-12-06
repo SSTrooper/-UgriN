@@ -39,7 +39,17 @@ ul li h2
 {
   font-size: 45px;
 }
-ul li: nth-child(2n)
+ul li:nth-child(2n)
 {
-  -moz-transform: rotate(8 deg);
+  -moz-transform:rotate(8deg);
+}
+ul li:nth-child(2n+5)
+{
+  -moz-transform:rotate(-15deg);
+}
+ul li:hover
+{
+  -moz-transform:scale(1.7)
+  z-index:100;
+  -moz-box-shadow: 0 0 25px #000;
 }
